@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500&family=Poppins:wght@500&display=swap");
+
+.body {
+  font-family: "Poppins", sans-serif;
+}
+.head-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  width: 50%;
+}
+#spinner {
+  margin-left: 600px;
+  margin-top: 50px;
+  display: none;
+}
+
+.col {
+  margin-bottom: 50px;
+}
+#detail-img {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.copyright {
+  text-align: center;
+  margin-top: 300px;
+}
+.info-owner {
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.info-owner a {
+  color: blue;
+  text-decoration: none;
+}
+.social-media {
+  color: white;
+  font-size: 30px;
+  padding-top: -15px;
+}
+/* Media Query */
+@media only screen and (max-width: 688px) {
+  .main-header {
+    margin-left: 40px;
+    color: #26a9e0;
+  }
+  #spinner {
+    margin-left: 70px;
+  }
+}
