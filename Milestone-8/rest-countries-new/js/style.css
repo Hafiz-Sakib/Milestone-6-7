@@ -1,0 +1,17 @@
+#countries {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.my__country {
+  border: 3px solid cyan;
+  border-radius: 10px;
+  margin: 100px;
+  padding: 10px;
+  background-color: lightgreen;
+}
+.my__country img {
+  width: 75%;
+}
+.my__country h2 {
+  color: red;
+}
